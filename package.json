@@ -1,0 +1,32 @@
+{
+  "name": "bitfinex-trade-logger",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KosherBacon/BitfinexTradeLogger.git"
+  },
+  "keywords": [
+    "Bitfinex",
+    "Bitcoin",
+    "Trade",
+    "Logger",
+    "Database",
+    "Backtest"
+  ],
+  "author": "Joshua Kahn",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KosherBacon/BitfinexTradeLogger/issues"
+  },
+  "homepage": "https://github.com/KosherBacon/BitfinexTradeLogger#readme",
+  "dependencies": {
+      "bitfinex-api-node": ">= 0.2.1",
+      "debug": ">= 2.2.0",
+      "influx": ">= 0.9.0"
+  }
+}
